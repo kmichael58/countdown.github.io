@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <head>
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  
+  <title>Countdown Timer</title>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <i class="fa-solid fa-clock-rotate-left"></i>
+    </div>
+    
+  
+  <div id="timer">
+    <h2>TIME IS RUNNING OUT</h2>
+    <strong class="strong">ESTIMATED TIME REMAINING IS 7 DAYS</strong>
+    <form action="">
+      <input type="text" placeholder="Add Event" class="input">
+    </form>
+    <div class="counter">
+      <div class="box">
+        <span id="days"></span>
+        <p>Days</p>
+      </div>
+      <div class="box">
+        <span id="hours"></span>
+        <p>Hours</p>
+      </div>
+      <div class="box">
+        <span id="minutes"></span>
+        <p>Minutes</p>
+      </div>
+      <div class="box">
+        <span id="seconds"></span>
+        <p>Seconds</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
